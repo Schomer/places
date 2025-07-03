@@ -1,0 +1,16 @@
+{
+  "name": "photo-map-backend",
+  "version": "1.0.0",
+  "description": "Backend to process and convert images.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "exiftool-vendored": "^25.2.0",
+    "express": "^4.19.2",
+    "heic-convert": "^1.2.4",
+    "multer": "^1.4.5-lts.1"
+  }
+}
